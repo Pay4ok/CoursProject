@@ -1,0 +1,110 @@
+@media screen and (max-width: 470px) {
+  header {
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 100vw;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.501), rgba(0, 0, 0, 0.553)), url(../img/pexels-rachel-claire-4577163.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  header .preview-photo {
+    display: none;
+  }
+
+  header .preview-text {
+    row-gap: 8vw;
+    grid-column: 2/3;
+    grid-row-start: 3;
+  }
+
+  header .preview-text .slogan {
+    color: white;
+    font-size: 6vw;
+    line-height: normal;
+  }
+
+  header .preview-text .t-btn {
+    height: 7.6vw;
+    width: 18vw;
+    font-size: 4vw;
+  }
+
+  header .preview-logo {
+    width: 100%;
+    height: 9.8vw;
+    grid-row-start: 2;
+  }
+
+  header .preview-logo path:last-child {
+    fill: #FF6B00;
+  }
+
+  header .preview-logo path:first-child {
+    fill: white;
+  }
+
+  header .nav-bar {
+    grid-column: 2/4;
+    margin-bottom: 10vw;
+  }
+
+  header .nav-bar li {
+    color: white;
+    font-size: 2.7vw;
+  }
+
+  header .nav-bar .t-link {
+    color: #FF6B00;
+  }
+
+  main .propose .propose-phrase {
+    font-size: 4vw;
+    margin-bottom: 6vw;
+  }
+
+  main .propose .main_propose_div {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 5vw;
+  }
+
+  main .propose .main_propose_div .propose_div {
+    margin: 0 auto;
+    grid-column-start: 2;
+    width: 100%;
+  }
+
+  main .propose .main_propose_div .propose_div svg {
+    height: 13vw;
+    width: 13vw;
+  }
+
+  main .propose .main_propose_div .propose_div h3 {
+    font-size: 3vw;
+  }
+
+  main .propose .main_propose_div .propose_div p {
+    font-size: 1.7vw;
+    width: 50%;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  main .propose .main_propose_div .propose_div:nth-of-type(1) {
+    grid-row-start: 1;
+  }
+
+  main .propose .main_propose_div .propose_div:nth-of-type(2) {
+    grid-row-start: 2;
+  }
+
+  main .propose .main_propose_div .propose_div:nth-of-type(3) {
+    grid-row-start: 3;
+  }
+}
+/*# sourceMappingURL=mobile_style.css.map */
+
+/*# sourceMappingURL=mobile_style.sass.map */

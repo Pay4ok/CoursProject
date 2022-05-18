@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<tours>
+    <tour id="1">
+        <name>Travel in India</name>
+        <price>449</price>
+        <stock>46</stock>
+    </tour>
+    <tour id="2">
+        <name>Travel in Rio de janeiro</name>
+        <price>500</price>
+        <stock>23</stock>
+    </tour>
+    <tour id="3">
+        <name>Travel in Maldives</name>
+        <price>799</price>
+        <stock>30</stock>
+    </tour>
+    <tour id="4">
+        <name>Travel in Russia</name>
+        <price>300</price>
+        <stock>34</stock>
+    </tour>
+    <tour id="5">
+        <name>Travel in Rome</name>
+        <price>1221</price>
+        <stock>54</stock>
+    </tour>
+    <tour id="6">
+        <name>Travel in France</name>
+        <price>670</price>
+        <stock>44</stock>
+    </tour>
+    <tour id="7">
+        <name>Travel in Budapest</name>
+        <price>1059</price>
+        <stock>75</stock>
+    </tour>
+    <tour id="8">
+        <name>Travel in England</name>
+        <price>1399</price>
+        <stock>47</stock>
+    </tour>
+</tours>

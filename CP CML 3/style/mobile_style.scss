@@ -1,0 +1,216 @@
+@media screen and (max-width: 470px) {
+    header {
+
+        .preview-photo {
+            display: none;
+        }
+
+        grid-template-columns: 1fr 2fr 2fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+
+        width: 100%;
+        height: 100vw;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.501), rgba(0, 0, 0, 0.553)), url(../img/pexels-rachel-claire-4577163.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .preview-text {
+            row-gap: 8vw;
+            grid-column: 2/3;
+            grid-row-start: 3;
+            .slogan {
+                color: white;
+                font-size: 6vw;
+                line-height: normal;
+            }
+            .t-btn {
+                height: 7.6vw;
+                width: 18vw;
+                font-size: 4vw;
+                
+            }
+        }
+
+        .preview-logo {
+            width: 100%;
+            height: 9.8vw;
+            grid-row-start: 2;
+            path:last-child {
+                fill: #FF6B00;
+            }
+            path:first-child {
+                fill: white;
+            }
+        }
+
+        .nav-bar {
+            grid-column: 2/4;
+            margin-bottom: 10vw;
+
+            li {
+                color: white;
+                font-size: 2.7vw;
+            }
+            .t-link {
+                color: #FF6B00;
+            }
+        }
+    }
+    main {
+        .propose {
+            .propose-phrase {
+                font-size: 5vw;
+                margin-bottom: 6vw;
+            }
+
+            .main_propose_div {
+                display: grid;
+                grid-template-columns: 1fr 2fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+                row-gap: 5vw;
+
+                .propose_div {
+                    margin: 0 auto;
+                    grid-column-start: 2;
+                    width: 100%;
+
+                    svg {
+                        height: 13vw;
+                        width: 13vw;
+                    }
+                    h3 {
+                        font-size: 3vw;
+                    }
+                    p {
+                        font-size: 1.7vw;
+                        width: 50%;
+                        align-items: center;
+                        margin: 0 auto;
+                    }
+                }
+
+                .propose_div:nth-of-type(1) {
+                    grid-row-start: 1;
+                }
+                .propose_div:nth-of-type(2) {
+                    grid-row-start: 2;
+                }
+                .propose_div:nth-of-type(3) {
+                    grid-row-start: 3;
+                }
+            }
+        }
+        .gallery {
+            height: 100vw;
+
+            .gallery-phrase {
+                font-size: 5vw;
+                margin-top: 10vw;
+            }
+
+            .main-gallery-div {
+                grid-template-columns: 1fr 3fr 1fr;
+                grid-template-rows: 0fr 5fr 1fr;
+
+                .gallery-text {
+                    display: none;
+                }
+
+                div {
+                    height: 70vw;
+                    transform: none;
+                }
+                
+                .gallery-img1 {
+                    display: none;
+                }
+                
+                .gallery-img2 {
+                    grid-column-start: 2;
+                }
+
+                .gallery-img3 {
+                    display: none;
+                }
+
+                .gallery-moveto {
+                    font-size: 10vw;
+                    font-weight: 900;
+                    color: #FF6B00;
+                    display: flex;
+                    align-items: center;
+
+                    p {
+                        margin: 0 auto;
+                        transition: .3s;
+                    }
+                    p:hover {
+                        color: #ff0000;
+                    }
+                }
+            }
+        }
+        .top {
+            display: flex;
+            flex-flow: column wrap;
+            align-content: center;
+
+            .top-phrase {
+                font-size: 5vw;
+                margin-top: 10vw;
+            }
+
+            .main-top-div {
+                display: flex;
+                flex-flow: column-reverse wrap;
+                justify-content: space-around;
+
+                width: 72vw;
+                align-items: center;
+                text-align: center;
+
+                div {
+                    width: 55vw;
+                    height: 66vw;
+                    margin-bottom: 10vw;
+                }
+
+                p {
+                    font-size: 3.2vw;
+                    margin-bottom: 3.6vw;
+                }
+
+                h3 {
+                    font-size: 3.85vw;
+                    margin-top: 10vw;
+                    margin-bottom: 1.21vw;
+                    color: #ff4000;
+
+                }
+            }
+        }
+    }
+    footer {
+        section {
+            column-gap: 2.9vw;
+            row-gap: .4vw;
+
+            .logo {
+                height: 6vw;
+                width: 15vw;
+            }
+
+            .social-networks {
+                width: 15vw;
+            }
+
+            a {
+                font-size: 2.5vw;
+            }
+            h3 {
+                font-size: 2.9vw;
+                width: 100%;
+            }
+        }
+    }
+}
